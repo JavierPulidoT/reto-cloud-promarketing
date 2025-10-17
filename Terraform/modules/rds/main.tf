@@ -57,7 +57,7 @@ resource "random_password" "master_password"{
 }
 
 resource "aws_secretsmanager_secret" "password" {
-  name = "secretmanager-promarketing-canada-v2"
+  name = "secret-manager-promarketing-canada-v1"
 }
 
 resource "aws_secretsmanager_secret_version" "password" {
